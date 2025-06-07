@@ -1,0 +1,11 @@
+/* 1) Pindahkan @import sebelum semua @tailwind */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,14..');
+
+/* 2) Baru tulis direktif Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
