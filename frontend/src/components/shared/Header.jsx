@@ -1,5 +1,5 @@
 import {FaUserCircle, FaSearch, FaBell} from "react-icons/fa"
-import logo from "../../assets/images/react.svg"
+import logo from "../../assets/images/logo.png"
 
 function Header() {
   return (
