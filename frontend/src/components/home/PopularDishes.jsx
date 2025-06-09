@@ -25,7 +25,7 @@ const PopularDishes = () => {
                 <img
                   src={dish.image}
                   alt={dish.name}
-                  className="w-[50px] h-[50px] rounded-full"
+                  className="w-[50px] h-[50px] rounded-lg"
                 />
                 <div>
                   <h1 className="text-[#f5f5f5] font-semibold tracking-wide">{dish.name}</h1>
